@@ -3,13 +3,13 @@ import React from "react";
 function Portfolio() {
   return (
     <>
-      <div id="portfolio" class="container-fluid text-center bg-grey">
+      <div id="portfolio" className="container-fluid text-center bg-grey">
         <h2>Portfolio</h2>
         <br />
         <h4>What we have created</h4>
-        <div class="row text-center slideanim">
-          <div class="col-sm-4">
-            <div class="thumbnail" />
+        <div className="row text-center slideanim">
+          <div className="col-sm-4">
+            <div className="thumbnail" />
             <img
               src="https://ibb.co/dm0xvD7"
               alt="Paris"
@@ -22,8 +22,8 @@ function Portfolio() {
             <p>Yes, we built Paris</p>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="thumbnail">
+        <div className="col-sm-4">
+          <div className="thumbnail">
             <img
               src="https://ibb.co/h2cjGD8/paris.jpg"
               alt="New York"
@@ -36,8 +36,8 @@ function Portfolio() {
             <p>We built New York</p>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="thumbnail">
+        <div className="col-sm-4">
+          <div className="thumbnail">
             <img
               src="https://ibb.co/QXqhqt1"
               alt="San Francisco"

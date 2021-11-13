@@ -6,31 +6,31 @@ function Testimonial() {
       <h2 className="text-center">What our customers say</h2>
       <div
         id="myCarousel"
-        class="carousel slide text-center"
+        className="carousel slide text-center"
         data-ride="carousel"
       />
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <ol className="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
 
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
+      <div className="carousel-inner" role="listbox">
+        <div className="item active">
           <h4>
             "This company is the best. I am so happy with the result!"
             <br />
             <span>Michael Roe, Vice President, Comment Box</span>
           </h4>
         </div>
-        <div class="item">
+        <div className="item">
           <h4>
             "One word... WOW!!"
             <br />
             <span>John Doe, Salesman, Rep Inc</span>
           </h4>
         </div>
-        <div class="item">
+        <div className="item">
           <h4>
             "Could I... BE any more happy with this company?"
             <br />
